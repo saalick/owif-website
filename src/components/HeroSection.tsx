@@ -11,20 +11,20 @@ const HeroSection = () => {
           {/* Token Symbol */}
           <div className="mb-8">
             <span className="text-3xl font-black text-primary tracking-wider">
-              $WIF
+              $OWIF
             </span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-7xl md:text-9xl font-black mb-6">
-            <span className="text-foreground">DOG</span>
-            <span className="text-primary">WIF</span>
+            <span className="text-foreground">ONLY</span>
+            <span className="text-primary">OLF</span>
             <span className="text-foreground">HAT</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            The Based deflationary Dogwifhat token that auto burns 🔥
+            Wif Dogs Only Olf Hat - When new hats get old, we keep the olf hat vibes alive! 🎩
           </p>
 
           {/* CTA Buttons */}
@@ -34,21 +34,22 @@ const HeroSection = () => {
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full transition-all duration-300"
             >
               <ArrowRight className="mr-2 h-6 w-6" />
-              VIEW UNISWAP
+              DEXSCREENER
             </Button>
             <Button 
               size="lg" 
               className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-12 py-6 text-lg font-bold rounded-full transition-all duration-300"
             >
               <Users className="mr-2 h-6 w-6" />
-              JOIN THE CHAOS
+              Join Telegram
             </Button>
           </div>
 
           {/* Contract Address */}
           <div className="mt-16">
+            <div className="text-sm text-muted-foreground mb-2">Solana Contract Address:</div>
             <code className="text-foreground font-mono text-lg break-all bg-secondary/20 px-4 py-2 rounded-lg">
-              0x1014580e014c9bE17d5aCf179ac3580D8CdEE352
+              2wnXhHCZ8Y1cRVVykgHJ2VU8oExJo3goRGPLEgfC3jEK
             </code>
           </div>
         </div>
