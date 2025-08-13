@@ -1,0 +1,67 @@
+import { Button } from "@/components/ui/button";
+
+const Footer = () => {
+  return (
+    <footer className="bg-card border-t-2 border-primary/20 py-16 px-4">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-8">
+          <div className="md:col-span-2">
+            <div className="flex items-center space-x-2 mb-4">
+              <span className="text-4xl">🎩</span>
+              <span className="text-2xl font-bold text-gradient">$OWIF</span>
+            </div>
+            <p className="text-muted-foreground mb-6 max-w-md">
+              Where olf dogs keep their hats on and their spirits high. 
+              Join the revolution that honors the original vibes.
+            </p>
+            <div className="flex space-x-4">
+              <Button variant="outline" size="sm">🐦 Twitter</Button>
+              <Button variant="outline" size="sm">✈️ Telegram</Button>
+              <Button variant="outline" size="sm">🎮 Discord</Button>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="font-bold mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-muted-foreground">
+              <li><a href="#" className="hover:text-primary transition-colors">Buy $OWIF</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Chart</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Tokenomics</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Roadmap</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="font-bold mb-4">Resources</h4>
+            <ul className="space-y-2 text-muted-foreground">
+              <li><a href="#" className="hover:text-primary transition-colors">Whitepaper</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Audit</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Media Kit</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div className="border-t border-border mt-12 pt-8 text-center">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-muted-foreground">
+              © 2024 $OWIF. All rights reserved. Made with ❤️ by the olf community.
+            </p>
+            <div className="flex items-center space-x-4 text-muted-foreground">
+              <span>Contract: Coming Soon...</span>
+              <Button variant="ghost" size="sm">📋 Copy</Button>
+            </div>
+          </div>
+          
+          <div className="mt-8 text-center">
+            <p className="text-sm text-muted-foreground italic">
+              "In hats we trust, in olf we believe, in memes we prosper." 🎩✨
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
