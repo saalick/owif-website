@@ -8,39 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 45 100% 96%;
-    --foreground: 20 14.3% 4.1%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 20 14.3% 4.1%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 33 100% 50%;
-    --primary-foreground: 0 0% 0%;
+    --primary: 263 70% 50%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 60 4.8% 95.9%;
-    --secondary-foreground: 24 9.8% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 60 4.8% 95.9%;
-    --muted-foreground: 25 5.3% 44.7%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 45 100% 85%;
-    --accent-foreground: 24 9.8% 10%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 240 10% 3.9%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 9.1% 97.8%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 20 5.9% 90%;
-    --input: 20 5.9% 90%;
-    --ring: 33 100% 50%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 263 70% 50%;
 
-    --gradient-meme: linear-gradient(135deg, hsl(var(--primary)), hsl(45 100% 60%));
-    --gradient-old: linear-gradient(135deg, hsl(25 100% 70%), hsl(35 100% 60%));
-    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.3);
+    --gradient-neon: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-dark: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(240 3.7% 15.9%));
+    --shadow-neon: 0 0 40px hsl(var(--primary) / 0.5);
+    --shadow-cyan: 0 0 40px hsl(var(--accent) / 0.3);
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -118,14 +119,18 @@ All colors MUST be HSL.
   }
   
   .text-gradient {
-    background: var(--gradient-meme);
+    background: var(--gradient-neon);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .glow {
-    box-shadow: var(--shadow-glow);
+    box-shadow: var(--shadow-neon);
+  }
+
+  .glow-cyan {
+    box-shadow: var(--shadow-cyan);
   }
 }
 

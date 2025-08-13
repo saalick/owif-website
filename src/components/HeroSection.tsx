@@ -1,29 +1,9 @@
-import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { useRunware } from "@/hooks/useRunware";
 
 const HeroSection = () => {
-  const { generateImage, isGenerating, generatedImages } = useRunware();
-  const [heroImage, setHeroImage] = useState<string>("");
-
-  useEffect(() => {
-    const generateHeroImage = async () => {
-      const imageUrl = await generateImage({
-        positivePrompt: "A distinguished old golden retriever dog wearing a vintage brown fedora hat, sitting proudly with a wise expression, golden hour lighting, meme style, cartoon-like, vibrant colors, wearing sunglasses, cryptocurrency coins floating around, 'OG vibes' text overlay",
-        width: 512,
-        height: 512,
-      }, "hero-dog");
-      
-      if (imageUrl) {
-        setHeroImage(imageUrl);
-      }
-    };
-
-    generateHeroImage();
-  }, [generateImage]);
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-br from-background via-accent/20 to-primary/10">
+    <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-br from-background via-secondary/20 to-primary/10">
       {/* Floating elements */}
       <div className="absolute top-20 left-20 text-6xl animate-bounce opacity-50">🎩</div>
       <div className="absolute top-40 right-20 text-4xl bounce-slow opacity-30">🐕</div>
@@ -38,29 +18,16 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Hero Image */}
           <div className="lg:w-1/2 flex justify-center">
-            {heroImage ? (
-              <div className="relative">
-                <img 
-                  src={heroImage} 
-                  alt="OWIF Hero Dog with Hat" 
-                  className="rounded-2xl shadow-2xl glow max-w-full h-auto wiggle hover:scale-105 transition-transform duration-300"
-                  style={{ maxHeight: '400px' }}
-                />
-                <div className="absolute -top-4 -right-4 text-4xl animate-bounce">👑</div>
-                <div className="absolute -bottom-4 -left-4 text-3xl animate-pulse">💎</div>
-              </div>
-            ) : (
-              <div className="w-96 h-96 bg-gradient-to-br from-primary/20 to-accent/30 rounded-2xl flex items-center justify-center">
-                {isGenerating ? (
-                  <div className="text-center">
-                    <div className="text-6xl animate-spin mb-4">🎩</div>
-                    <p className="text-lg">Generating epic olf dog...</p>
-                  </div>
-                ) : (
-                  <div className="text-6xl wiggle">🐕</div>
-                )}
-              </div>
-            )}
+            <div className="relative">
+              <img 
+                src="https://picsum.photos/400/400?random=1" 
+                alt="OWIF Hero Dog with Hat" 
+                className="rounded-2xl shadow-2xl glow-cyan max-w-full h-auto wiggle hover:scale-105 transition-transform duration-300"
+                style={{ maxHeight: '400px' }}
+              />
+              <div className="absolute -top-4 -right-4 text-4xl animate-bounce">👑</div>
+              <div className="absolute -bottom-4 -left-4 text-3xl animate-pulse">💎</div>
+            </div>
           </div>
           
           {/* Hero Text */}

@@ -1,27 +1,7 @@
-import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { useRunware } from "@/hooks/useRunware";
 
 const TokenomicsSection = () => {
-  const { generateImage } = useRunware();
-  const [chartImage, setChartImage] = useState<string>("");
-
-  useEffect(() => {
-    const generateChartImage = async () => {
-      const imageUrl = await generateImage({
-        positivePrompt: "A cute cartoon dog accountant wearing glasses and a green visor hat, sitting at a desk with pie charts and financial documents, calculator and coins scattered around, professional but fun meme style, golden color scheme",
-        width: 500,
-        height: 400,
-      }, "tokenomics-dog");
-      
-      if (imageUrl) {
-        setChartImage(imageUrl);
-      }
-    };
-
-    generateChartImage();
-  }, [generateImage]);
   const tokenomics = [
     { label: "Olf Dogs Reserve", percentage: 40, description: "For the goodest olf bois" },
     { label: "Community Hat Fund", percentage: 30, description: "Memes and marketing" },
@@ -43,17 +23,15 @@ const TokenomicsSection = () => {
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            {chartImage && (
-              <div className="text-center mb-8">
-                <img 
-                  src={chartImage} 
-                  alt="Tokenomics Expert Dog" 
-                  className="mx-auto rounded-2xl shadow-lg max-w-full h-auto hover:scale-105 transition-transform duration-300"
-                  style={{ maxHeight: '300px' }}
-                />
-              </div>
-            )}
-            <Card className="bg-card/80 backdrop-blur">
+            <div className="text-center mb-8">
+              <img 
+                src="https://picsum.photos/500/300?random=5" 
+                alt="Tokenomics Expert Dog" 
+                className="mx-auto rounded-2xl shadow-lg max-w-full h-auto hover:scale-105 transition-transform duration-300 glow-cyan"
+                style={{ maxHeight: '300px' }}
+              />
+            </div>
+            <Card className="bg-card/80 backdrop-blur border-primary/20">
               <CardHeader>
                 <CardTitle className="text-3xl text-center">
                   1 Billion $OWIF Tokens 🎩

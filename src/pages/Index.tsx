@@ -5,19 +5,10 @@ import RoadmapSection from "@/components/RoadmapSection";
 import CommunitySection from "@/components/CommunitySection";
 import MemeGallery from "@/components/MemeGallery";
 import Footer from "@/components/Footer";
-import ApiKeyInput from "@/components/ApiKeyInput";
-import { useRunware } from "@/hooks/useRunware";
 
 const Index = () => {
-  const { apiKey, setApiKey, isServiceReady } = useRunware();
-
   return (
     <div className="min-h-screen">
-      <ApiKeyInput 
-        apiKey={apiKey} 
-        setApiKey={setApiKey} 
-        isServiceReady={isServiceReady} 
-      />
       <HeroSection />
       <AboutSection />
       <TokenomicsSection />
