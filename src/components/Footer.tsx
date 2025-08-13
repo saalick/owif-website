@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <span className="text-4xl">🎩</span>
+              <div className="w-10 h-10 bg-primary rounded-full glow"></div>
               <span className="text-2xl font-bold text-gradient">$OWIF</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
@@ -15,9 +15,9 @@ const Footer = () => {
               Join the revolution that honors the original vibes.
             </p>
             <div className="flex space-x-4">
-              <Button variant="outline" size="sm">🐦 Twitter</Button>
-              <Button variant="outline" size="sm">✈️ Telegram</Button>
-              <Button variant="outline" size="sm">🎮 Discord</Button>
+              <Button variant="outline" size="sm">Twitter</Button>
+              <Button variant="outline" size="sm">Telegram</Button>
+              <Button variant="outline" size="sm">Discord</Button>
             </div>
           </div>
           
@@ -45,17 +45,17 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground">
-              © 2024 $OWIF. All rights reserved. Made with ❤️ by the olf community.
+              © 2024 $OWIF. All rights reserved. Made with love by the olf community.
             </p>
             <div className="flex items-center space-x-4 text-muted-foreground">
               <span>Contract: Coming Soon...</span>
-              <Button variant="ghost" size="sm">📋 Copy</Button>
+              <Button variant="ghost" size="sm">Copy</Button>
             </div>
           </div>
           
           <div className="mt-8 text-center">
             <p className="text-sm text-muted-foreground italic">
-              "In hats we trust, in olf we believe, in memes we prosper." 🎩✨
+              "In hats we trust, in olf we believe, in memes we prosper."
             </p>
           </div>
         </div>

@@ -14,7 +14,7 @@ const TokenomicsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            Tokenomics 📊
+            Tokenomics
           </h2>
           <p className="text-xl text-muted-foreground">
             How we distribute the olf wealth
@@ -34,7 +34,7 @@ const TokenomicsSection = () => {
             <Card className="bg-card/80 backdrop-blur border-primary/20">
               <CardHeader>
                 <CardTitle className="text-3xl text-center">
-                  1 Billion $OWIF Tokens 🎩
+                  1 Billion $OWIF Tokens
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -55,7 +55,7 @@ const TokenomicsSection = () => {
           <div className="space-y-8">
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
-                <div className="text-4xl mb-4">🔥</div>
+                <div className="w-16 h-16 bg-destructive rounded-full mb-4 mx-auto animate-pulse"></div>
                 <h3 className="text-2xl font-bold mb-4">No Tax, Just Facts</h3>
                 <p className="text-lg">
                   0% buy tax, 0% sell tax. We're too olf for complicated math.
@@ -65,7 +65,7 @@ const TokenomicsSection = () => {
             
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
-                <div className="text-4xl mb-4">🔒</div>
+                <div className="w-16 h-16 bg-accent rounded-lg mb-4 mx-auto rotate-45"></div>
                 <h3 className="text-2xl font-bold mb-4">LP Locked Forever</h3>
                 <p className="text-lg">
                   Liquidity is locked until the heat death of the universe. 
@@ -76,7 +76,7 @@ const TokenomicsSection = () => {
             
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
-                <div className="text-4xl mb-4">👑</div>
+                <div className="w-16 h-16 bg-primary rounded-full mb-4 mx-auto glow wiggle"></div>
                 <h3 className="text-2xl font-bold mb-4">Renounced Ownership</h3>
                 <p className="text-lg">
                   Contract ownership renounced. This is the people's coin now. 

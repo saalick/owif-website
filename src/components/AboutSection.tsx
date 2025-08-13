@@ -6,7 +6,7 @@ const AboutSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            Why $OWIF? 🤔
+            Why $OWIF?
           </h2>
           <p className="text-xl text-muted-foreground">
             Because every old dog deserves their day... and their hat!
@@ -62,7 +62,7 @@ const AboutSection = () => {
         
         <div className="mt-16 text-center">
           <div className="bg-primary/10 rounded-2xl p-8 border-2 border-primary/20">
-            <h3 className="text-3xl font-bold mb-4">The $OWIF Manifesto 📜</h3>
+            <h3 className="text-3xl font-bold mb-4">The $OWIF Manifesto</h3>
             <div className="text-lg space-y-4 max-w-3xl mx-auto">
               <p>
                 "We hold these truths to be self-evident: that all olf dogs are created equal, 

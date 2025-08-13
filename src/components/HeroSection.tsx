@@ -4,15 +4,15 @@ import { Badge } from "@/components/ui/badge";
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gradient-to-br from-background via-secondary/20 to-primary/10">
-      {/* Floating elements */}
-      <div className="absolute top-20 left-20 text-6xl animate-bounce opacity-50">🎩</div>
-      <div className="absolute top-40 right-20 text-4xl bounce-slow opacity-30">🐕</div>
-      <div className="absolute bottom-40 left-40 text-5xl wiggle opacity-40">👴</div>
-      <div className="absolute bottom-20 right-40 text-3xl animate-pulse opacity-50">💰</div>
+      {/* Floating geometric shapes */}
+      <div className="absolute top-20 left-20 w-16 h-16 bg-primary/20 rotate-45 animate-bounce"></div>
+      <div className="absolute top-40 right-20 w-12 h-12 bg-accent/30 rounded-full animate-pulse"></div>
+      <div className="absolute bottom-40 left-40 w-20 h-8 bg-secondary/25 skew-x-12 wiggle"></div>
+      <div className="absolute bottom-20 right-40 w-14 h-14 bg-primary/15 rotate-12 animate-pulse"></div>
       
       <div className="text-center space-y-8 px-4 max-w-6xl mx-auto z-10">
-        <Badge variant="secondary" className="text-lg px-6 py-2 animate-pulse">
-          🚀 THE OLF HAT REVOLUTION IS HERE 🚀
+        <Badge variant="secondary" className="text-lg px-6 py-2 animate-pulse glow-cyan">
+          THE OLF HAT REVOLUTION IS HERE
         </Badge>
         
         <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -25,8 +25,8 @@ const HeroSection = () => {
                 className="rounded-2xl shadow-2xl glow-cyan max-w-full h-auto wiggle hover:scale-105 transition-transform duration-300"
                 style={{ maxHeight: '400px' }}
               />
-              <div className="absolute -top-4 -right-4 text-4xl animate-bounce">👑</div>
-              <div className="absolute -bottom-4 -left-4 text-3xl animate-pulse">💎</div>
+              <div className="absolute -top-4 -right-4 w-8 h-8 bg-accent rounded-full animate-bounce glow-cyan"></div>
+              <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-primary rotate-45 animate-pulse"></div>
             </div>
           </div>
           
@@ -47,10 +47,10 @@ const HeroSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center pt-8">
               <Button size="lg" className="text-xl px-8 py-6 glow hover:scale-105 transition-transform">
-                🎩 Buy $OWIF Now
+                Buy $OWIF Now
               </Button>
               <Button variant="outline" size="lg" className="text-xl px-8 py-6 hover:scale-105 transition-transform">
-                📊 View Chart
+                View Chart
               </Button>
             </div>
           </div>
@@ -60,15 +60,17 @@ const HeroSection = () => {
           <p className="text-lg text-muted-foreground mb-4">Contract Address:</p>
           <div className="bg-card p-4 rounded-lg border-2 border-primary/20 max-w-md mx-auto">
             <code className="text-sm font-mono break-all">Coming Soon...</code>
-            <Button variant="ghost" size="sm" className="ml-2">📋 Copy</Button>
+            <Button variant="ghost" size="sm" className="ml-2">Copy</Button>
           </div>
         </div>
       </div>
       
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="text-2xl">👇</div>
-        <p className="text-sm text-muted-foreground">Keep scrolling for the memes</p>
+        <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
+        </div>
+        <p className="text-sm text-muted-foreground mt-2">Keep scrolling for the memes</p>
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ const MemeGallery = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            Olf Meme Gallery 🎭
+            Olf Meme Gallery
           </h2>
           <p className="text-xl text-muted-foreground">
             The finest collection of olf hat memes in the crypto space
@@ -84,12 +84,12 @@ const MemeGallery = () => {
         <div className="mt-12 text-center">
           <Card className="bg-primary/10 border-primary/30 max-w-2xl mx-auto">
             <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-3">Submit Your Olf Memes! 📝</h3>
+              <h3 className="text-xl font-bold mb-3">Submit Your Olf Memes!</h3>
               <p className="text-muted-foreground mb-4">
                 Got a fire olf hat meme? Share it with the community and earn $OWIF rewards!
               </p>
               <Button className="glow">
-                🎨 Submit Meme
+                Submit Meme
               </Button>
             </CardContent>
           </Card>
