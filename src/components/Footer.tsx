@@ -11,8 +11,8 @@ const Footer = () => {
               <span className="text-2xl font-bold text-gradient">$OWIF</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Where olf dogs keep their hats on and their spirits high. 
-              Join the revolution that honors the original vibes.
+              Where olf dogs keep that ENERGY and never lose the AURA. 
+              Join the chaos that respects the OG vibes fr.
             </p>
             <div className="flex space-x-4">
               <Button variant="outline" size="sm">Twitter</Button>
@@ -24,20 +24,20 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Buy $OWIF</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Chart</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Tokenomics</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Roadmap</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">APE IN NOW</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Chart Go BRRRR</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">The Numbers</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Chaos Plan</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Whitepaper</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Audit</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Media Kit</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Brainrot Bible</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Security Check</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Meme Kit</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">DM Us</a></li>
             </ul>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-muted-foreground">
-              © 2024 $OWIF. All rights reserved. Made with love by the olf community.
+              © 2024 $OWIF. All vibes reserved. Made with pure CHAOS by the olf degeneracy.
             </p>
             <div className="flex items-center space-x-4 text-muted-foreground">
               <span>Contract: Coming Soon...</span>
@@ -55,7 +55,7 @@ const Footer = () => {
           
           <div className="mt-8 text-center">
             <p className="text-sm text-muted-foreground italic">
-              "In hats we trust, in olf we believe, in memes we prosper."
+              "In chaos we trust, in olf we believe, in degeneracy we prosper." - Ancient Sigma Wisdom
             </p>
           </div>
         </div>

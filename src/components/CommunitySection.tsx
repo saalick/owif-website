@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const CommunitySection = () => {
   const socialLinks = [
-    { name: "Twitter", followers: "10K", description: "Daily olf memes" },
-    { name: "Telegram", members: "5K", description: "Olf discussions 24/7" },
-    { name: "Discord", members: "3K", description: "Gaming with the olf gang" },
-    { name: "Reddit", subscribers: "2K", description: "Olf stories & DD" }
+    { name: "Twitter/X", followers: "10K", description: "Daily brainrot injection" },
+    { name: "Telegram", members: "5K", description: "War room for degens 24/7" },
+    { name: "Discord", members: "3K", description: "Pure chaos coordination HQ" },
+    { name: "Reddit", subscribers: "2K", description: "Olf DD and shitpost sanctuary" }
   ];
 
   return (
@@ -14,10 +14,10 @@ const CommunitySection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            Join the Olf Pack
+            Join The Chaos
           </h2>
           <p className="text-xl text-muted-foreground">
-            Where legends gather and memes are born
+            Link up with the most unhinged olf hat degens on the internet
           </p>
         </div>
         
@@ -41,25 +41,25 @@ const CommunitySection = () => {
           <div className="space-y-8">
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">Diamond Paws</h3>
+                <h3 className="text-2xl font-bold mb-4">Diamond Paws Club</h3>
                 <p className="text-lg mb-4">
-                  Our most loyal olf holders get exclusive perks:
+                  The most unhinged olf holders get PREMIUM perks:
                 </p>
                 <ul className="space-y-2">
-                  <li>Early access to olf hat NFTs</li>
-                  <li>VIP channel access</li>
-                  <li>Monthly olf meme contests</li>
-                  <li>Exclusive community events</li>
+                  <li>Alpha leaks before everyone else</li>
+                  <li>VIP degen den access</li>
+                  <li>FIRE meme contest rewards</li>
+                  <li>Exclusive chaos coordination events</li>
                 </ul>
               </CardContent>
             </Card>
             
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">The Olf Council</h3>
+                <h3 className="text-2xl font-bold mb-4">The Chaos Council</h3>
                 <p className="text-lg">
-                  Community-driven decisions. Every olf voice matters. 
-                  Together we decide the future of our beloved hat empire.
+                  Democracy but make it UNHINGED. Every olf voice gets heard. 
+                  Together we build the most FIRE hat empire in crypto history.
                 </p>
               </CardContent>
             </Card>
@@ -76,13 +76,13 @@ const CommunitySection = () => {
               </div>
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-primary rounded-full mb-4 mx-auto animate-pulse glow"></div>
-                <h3 className="text-3xl font-bold mb-4">Be Part of History</h3>
+                <h3 className="text-3xl font-bold mb-4">Witness The Chaos</h3>
                 <p className="text-lg mb-6">
-                  Join thousands of olf believers who know that age brings wisdom, 
-                  and wisdom brings gains. This isn't just a token, it's a movement.
+                  Join thousands of absolute UNITS who understand olf energy different. 
+                  This aint just a token bestie, this a whole LIFESTYLE revolution.
                 </p>
                 <Button size="lg" className="glow">
-                  Join the Revolution
+                  JOIN THE MADNESS
                 </Button>
               </div>
             </div>
@@ -90,19 +90,19 @@ const CommunitySection = () => {
             <div className="grid grid-cols-2 gap-4 text-center">
               <div className="bg-card p-4 rounded-lg border">
                 <div className="text-2xl font-bold text-primary">20K+</div>
-                <div className="text-sm text-muted-foreground">Olf Believers</div>
+                <div className="text-sm text-muted-foreground">Certified Degens</div>
               </div>
               <div className="bg-card p-4 rounded-lg border">
                 <div className="text-2xl font-bold text-primary">500K+</div>
-                <div className="text-sm text-muted-foreground">Memes Created</div>
+                <div className="text-sm text-muted-foreground">Fire Memes</div>
               </div>
               <div className="bg-card p-4 rounded-lg border">
                 <div className="text-2xl font-bold text-primary">24/7</div>
-                <div className="text-sm text-muted-foreground">Olf Energy</div>
+                <div className="text-sm text-muted-foreground">Chaos Mode</div>
               </div>
               <div className="bg-card p-4 rounded-lg border">
                 <div className="text-2xl font-bold text-primary">∞</div>
-                <div className="text-sm text-muted-foreground">Olf Wisdom</div>
+                <div className="text-sm text-muted-foreground">Sigma Energy</div>
               </div>
             </div>
           </div>

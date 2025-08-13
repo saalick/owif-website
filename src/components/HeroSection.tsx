@@ -12,7 +12,7 @@ const HeroSection = () => {
       
       <div className="text-center space-y-8 px-4 max-w-6xl mx-auto z-10">
         <Badge variant="secondary" className="text-lg px-6 py-2 animate-pulse glow-cyan">
-          THE OLF HAT REVOLUTION IS HERE
+          NO CAP FR FR SIGMA OLF HAT ENERGY 
         </Badge>
         
         <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -37,30 +37,30 @@ const HeroSection = () => {
             </h1>
             
             <h2 className="text-3xl md:text-5xl font-bold text-foreground/90">
-              Wif Dogs Only <span className="text-primary wiggle inline-block">Olf</span> Hat
+              Only <span className="text-primary wiggle inline-block">Olf</span> Hat Wif Infinite Rizz
             </h2>
             
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-              When new hats get old, we keep the <strong>olf hat</strong> vibes alive! 
-              The original wif dogs deserve the <strong>original hat</strong>. 
+              Bro this aint just a hat its a whole <strong>VIBE CHECK</strong> fr! 
+              New hats are mid but <strong>olf hat supremacy</strong> hits different bestie
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center pt-8">
               <Button size="lg" className="text-xl px-8 py-6 glow hover:scale-105 transition-transform">
-                Buy $OWIF Now
+                APE IN NOW OR STAY POOR
               </Button>
               <Button variant="outline" size="lg" className="text-xl px-8 py-6 hover:scale-105 transition-transform">
-                View Chart
+                CHART GO BRRRR
               </Button>
             </div>
           </div>
         </div>
         
         <div className="pt-8 text-center">
-          <p className="text-lg text-muted-foreground mb-4">Contract Address:</p>
+          <p className="text-lg text-muted-foreground mb-4">Contract Address (trust me bro):</p>
           <div className="bg-card p-4 rounded-lg border-2 border-primary/20 max-w-md mx-auto">
-            <code className="text-sm font-mono break-all">Coming Soon...</code>
-            <Button variant="ghost" size="sm" className="ml-2">Copy</Button>
+            <code className="text-sm font-mono break-all">SOON™ (maybe idk lol)</code>
+            <Button variant="ghost" size="sm" className="ml-2">COPY PASTA</Button>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ const HeroSection = () => {
         <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
           <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
-        <p className="text-sm text-muted-foreground mt-2">Keep scrolling for the memes</p>
+        <p className="text-sm text-muted-foreground mt-2">scroll down for peak brainrot content</p>
       </div>
     </section>
   );

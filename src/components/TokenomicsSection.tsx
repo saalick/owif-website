@@ -3,10 +3,10 @@ import { Progress } from "@/components/ui/progress";
 
 const TokenomicsSection = () => {
   const tokenomics = [
-    { label: "Olf Dogs Reserve", percentage: 40, description: "For the goodest olf bois" },
-    { label: "Community Hat Fund", percentage: 30, description: "Memes and marketing" },
-    { label: "Liquidity Pool", percentage: 20, description: "Keep it flowing" },
-    { label: "Development", percentage: 10, description: "Building the future" }
+    { label: "For The Culture", percentage: 40, description: "Airdrops for the day ones, rewards for diamond hands" },
+    { label: "Keep It Liquid", percentage: 30, description: "Smooth trading only, no sketchy business" },
+    { label: "Building Different", percentage: 20, description: "Funding the most FIRE olf hat innovations" },
+    { label: "Viral Marketing", percentage: 10, description: "Spreading olf hat supremacy across ALL timelines" }
   ];
 
   return (
@@ -14,10 +14,10 @@ const TokenomicsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            Tokenomics
+            The Numbers Game
           </h2>
           <p className="text-xl text-muted-foreground">
-            How we distribute the olf wealth
+            Math that actually makes sense (shocking ik)
           </p>
         </div>
         
@@ -56,9 +56,9 @@ const TokenomicsSection = () => {
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-destructive rounded-full mb-4 mx-auto animate-pulse"></div>
-                <h3 className="text-2xl font-bold mb-4">No Tax, Just Facts</h3>
+                <h3 className="text-2xl font-bold mb-4">Zero Tax Energy</h3>
                 <p className="text-lg">
-                  0% buy tax, 0% sell tax. We're too olf for complicated math.
+                  0% buy tax, 0% sell tax. We too olf for the IRS shenanigans fr.
                 </p>
               </CardContent>
             </Card>
@@ -66,10 +66,10 @@ const TokenomicsSection = () => {
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-accent rounded-lg mb-4 mx-auto rotate-45"></div>
-                <h3 className="text-2xl font-bold mb-4">LP Locked Forever</h3>
+                <h3 className="text-2xl font-bold mb-4">LP Locked Till Heat Death</h3>
                 <p className="text-lg">
-                  Liquidity is locked until the heat death of the universe. 
-                  We're not going anywhere, frens.
+                  Liquidity locked until the universe itself gets rekt. 
+                  We aint rugpulling nobody bestie.
                 </p>
               </CardContent>
             </Card>
@@ -77,10 +77,10 @@ const TokenomicsSection = () => {
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-primary rounded-full mb-4 mx-auto glow wiggle"></div>
-                <h3 className="text-2xl font-bold mb-4">Renounced Ownership</h3>
+                <h3 className="text-2xl font-bold mb-4">Ownership = YEETED</h3>
                 <p className="text-lg">
-                  Contract ownership renounced. This is the people's coin now. 
-                  Power to the olf!
+                  Contract ownership straight up DELETED. This the people's coin now. 
+                  Power to the olf degeneracy!
                 </p>
               </CardContent>
             </Card>
