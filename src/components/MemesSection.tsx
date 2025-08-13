@@ -2,41 +2,46 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, Share2, Zap, TrendingUp } from "lucide-react";
 
+import dogImage1 from "@/assets/dog-image-1.jpg";
+import dogImage2 from "@/assets/dog-image-2.jpg";
+import dogImage3 from "@/assets/dog-image-3.jpg";
+import dogImage4 from "@/assets/dog-image-4.jpg";
+
 const MemesSection = () => {
   const memes = [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=400&fit=crop",
+      url: dogImage1,
       title: "OG Dogwifhat Vibes",
       likes: 420
     },
     {
       id: 2, 
-      url: "https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=400&fit=crop",
+      url: dogImage2,
       title: "Based Dog Energy",
       likes: 690
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop", 
+      url: dogImage3, 
       title: "Moon Mission Ready",
       likes: 1337
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400&h=400&fit=crop",
+      url: dogImage4,
       title: "Diamond Paws",
       likes: 2100
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=400&h=400&fit=crop",
+      url: dogImage1,
       title: "Wen Lambo?",
       likes: 888
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=400&fit=crop",
+      url: dogImage2,
       title: "HODL Mode Activated",
       likes: 1234
     }
@@ -98,48 +103,6 @@ const MemesSection = () => {
           ))}
         </div>
 
-        {/* Viral stats section */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-card/80 to-card/60 backdrop-blur-xl rounded-3xl p-8 max-w-4xl mx-auto border border-primary/20 glow-cyan">
-            <h3 className="text-3xl font-black mb-6 text-gradient">COMMUNITY STATS</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="text-center hover-lift">
-                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">42K</div>
-                <div className="text-sm text-muted-foreground">MEMES POSTED</div>
-              </div>
-              <div className="text-center hover-lift">
-                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">1.2M</div>
-                <div className="text-sm text-muted-foreground">TOTAL LIKES</div>
-              </div>
-              <div className="text-center hover-lift">
-                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">69K</div>
-                <div className="text-sm text-muted-foreground">SHARES</div>
-              </div>
-              <div className="text-center hover-lift">
-                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">420</div>
-                <div className="text-sm text-muted-foreground">VIRAL HITS</div>
-              </div>
-            </div>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-              <Button 
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-full hover-lift transition-all duration-300 pulse-glow"
-              >
-                <Zap className="mr-2 h-5 w-5" />
-                Join the Chaos
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-bold rounded-full hover-lift transition-all duration-300"
-              >
-                <TrendingUp className="mr-2 h-5 w-5" />
-                View Trending
-              </Button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

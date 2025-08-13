@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Users } from "lucide-react";
+import dogImage3 from "@/assets/dog-image-3.jpg";
 
 const AboutSection = () => {
   return (
@@ -37,11 +38,11 @@ const AboutSection = () => {
         <div className="text-center">
           <div className="max-w-md mx-auto">
             <img 
-              src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=500&h=500&fit=crop" 
-              alt="Original Dogwifhat Meme" 
+              src={dogImage3} 
+              alt="OWIF Dog with Hat" 
               className="w-full rounded-2xl mb-4"
             />
-            <p className="text-muted-foreground italic">Original Dogwifhat Meme</p>
+            <p className="text-muted-foreground italic">OWIF - Only Olf Hat</p>
           </div>
         </div>
       </div>
