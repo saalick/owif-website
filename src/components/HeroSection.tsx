@@ -9,16 +9,16 @@ const HeroSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Token Symbol */}
           <div className="mb-8">
-            <span className="text-2xl font-bold text-primary tracking-wider">
+            <span className="text-3xl font-black text-rainbow tracking-wider neon-text">
               $WIF
             </span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-7xl md:text-9xl font-black mb-6 wiggle">
-            <span className="text-foreground">DOG</span>
-            <span className="text-primary pulse-glow">WIF</span>
-            <span className="text-foreground">HAT</span>
+          <h1 className="text-7xl md:text-9xl font-black mb-6 wiggle glitch">
+            <span className="text-foreground neon-text">DOG</span>
+            <span className="text-rainbow pulse-glow">WIF</span>
+            <span className="text-foreground neon-text">HAT</span>
           </h1>
 
           {/* Subtitle */}
@@ -30,17 +30,17 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full hover-lift pulse-glow transition-all duration-300"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full hover-lift glow-rainbow transition-all duration-300 rainbow-border"
             >
               <ArrowRight className="mr-2 h-6 w-6" />
               VIEW UNISWAP
             </Button>
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full hover-lift pulse-glow transition-all duration-300"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full hover-lift glow-rainbow transition-all duration-300 rainbow-border"
             >
               <Users className="mr-2 h-6 w-6" />
-              JOIN THE TEAM
+              JOIN THE CHAOS
             </Button>
           </div>
 
@@ -69,11 +69,13 @@ const HeroSection = () => {
         />
       </div>
       
-      {/* Floating geometric shapes */}
-      <div className="absolute top-20 left-20 w-8 h-8 bg-primary/30 rounded-full float opacity-60"></div>
-      <div className="absolute top-40 right-32 w-6 h-6 bg-accent/40 rotate-45 float opacity-50" style={{animationDelay: '1s'}}></div>
-      <div className="absolute bottom-40 left-40 w-10 h-10 border-2 border-primary/40 rounded-full float opacity-60" style={{animationDelay: '2s'}}></div>
-      <div className="absolute bottom-20 right-20 w-4 h-4 bg-muted/60 rotate-slow opacity-40"></div>
+      {/* Enhanced floating geometric shapes */}
+      <div className="absolute top-20 left-20 w-12 h-12 bg-primary/40 rounded-full float pulse-glow"></div>
+      <div className="absolute top-40 right-32 w-8 h-8 bg-accent/50 rotate-45 float glow-cyan" style={{animationDelay: '1s'}}></div>
+      <div className="absolute bottom-40 left-40 w-16 h-16 border-2 border-primary/50 rounded-full float pulse-glow" style={{animationDelay: '2s'}}></div>
+      <div className="absolute bottom-20 right-20 w-6 h-6 bg-muted/60 rotate-slow glow-rainbow"></div>
+      <div className="absolute top-1/3 left-1/4 w-4 h-4 bg-accent/60 rounded-full float" style={{animationDelay: '0.5s'}}></div>
+      <div className="absolute bottom-1/3 right-1/4 w-10 h-10 border border-accent/40 rotate-slow" style={{animationDelay: '3s'}}></div>
     </section>
   );
 };

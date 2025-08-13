@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Upload, Heart, Share2 } from "lucide-react";
+import { Heart, Share2, Zap, TrendingUp } from "lucide-react";
 
 const MemesSection = () => {
   const memes = [
@@ -52,18 +52,11 @@ const MemesSection = () => {
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-7xl font-black mb-6 wiggle">
-            <span className="text-gradient">EPIC MEMES</span>
+            <span className="text-gradient">FIRE MEMES</span>
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            The most fire dogwifhat memes from our degen community
+            The most legendary dogwifhat content that broke the internet
           </p>
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-bold rounded-full hover-lift pulse-glow transition-all duration-300"
-          >
-            <Upload className="mr-2 h-5 w-5" />
-            Submit Your Meme
-          </Button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -105,27 +98,44 @@ const MemesSection = () => {
           ))}
         </div>
 
-        {/* Call to action */}
+        {/* Viral stats section */}
         <div className="text-center mt-16">
-          <div className="bg-card/50 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto border border-border/50">
-            <h3 className="text-2xl font-bold mb-4 text-gradient">Got Fire Memes?</h3>
-            <p className="text-muted-foreground mb-6">
-              Share your best dogwifhat memes with the community and become legendary
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="bg-gradient-to-r from-card/80 to-card/60 backdrop-blur-xl rounded-3xl p-8 max-w-4xl mx-auto border border-primary/20 glow-cyan">
+            <h3 className="text-3xl font-black mb-6 text-gradient">COMMUNITY STATS</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="text-center hover-lift">
+                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">42K</div>
+                <div className="text-sm text-muted-foreground">MEMES POSTED</div>
+              </div>
+              <div className="text-center hover-lift">
+                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">1.2M</div>
+                <div className="text-sm text-muted-foreground">TOTAL LIKES</div>
+              </div>
+              <div className="text-center hover-lift">
+                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">69K</div>
+                <div className="text-sm text-muted-foreground">SHARES</div>
+              </div>
+              <div className="text-center hover-lift">
+                <div className="text-3xl md:text-4xl font-black text-primary mb-2 pulse-glow">420</div>
+                <div className="text-sm text-muted-foreground">VIRAL HITS</div>
+              </div>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button 
                 size="lg" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-full hover-lift transition-all duration-300"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-full hover-lift transition-all duration-300 pulse-glow"
               >
-                <Upload className="mr-2 h-5 w-5" />
-                Upload Meme
+                <Zap className="mr-2 h-5 w-5" />
+                Join the Chaos
               </Button>
               <Button 
                 size="lg" 
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-bold rounded-full hover-lift transition-all duration-300"
               >
-                Join Discord
+                <TrendingUp className="mr-2 h-5 w-5" />
+                View Trending
               </Button>
             </div>
           </div>
