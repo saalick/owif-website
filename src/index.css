@@ -118,6 +118,18 @@ All colors MUST be HSL.
     animation: wiggle 1s ease-in-out infinite;
   }
   
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  .rotate-slow {
+    animation: rotate-slow 20s linear infinite;
+  }
+  
   .text-gradient {
     background: var(--gradient-neon);
     -webkit-background-clip: text;
@@ -131,6 +143,20 @@ All colors MUST be HSL.
 
   .glow-cyan {
     box-shadow: var(--shadow-cyan);
+  }
+  
+  .hover-lift {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-8px);
+  }
+  
+  .background-animate {
+    background: linear-gradient(-45deg, hsl(var(--background)), hsl(var(--card)), hsl(var(--background)), hsl(var(--muted)));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
   }
 }
 
@@ -155,5 +181,50 @@ All colors MUST be HSL.
   }
   40%, 100% {
     transform: rotateZ(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
+  }
+  100% {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+  }
+}
+
+@keyframes rotate-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }

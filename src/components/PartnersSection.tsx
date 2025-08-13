@@ -19,12 +19,12 @@ const PartnersSection = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           {partners.map((partner, index) => (
-            <Card key={index} className="bg-card hover:bg-card/80 transition-colors">
+            <Card key={index} className="bg-card hover:bg-card/80 transition-all duration-300 hover-lift hover:scale-105">
               <CardContent className="p-8 text-center">
                 <img 
                   src={partner.logo} 
                   alt={partner.name}
-                  className="w-16 h-16 mx-auto rounded-lg object-cover"
+                  className="w-16 h-16 mx-auto rounded-lg object-cover transition-transform duration-300 hover:rotate-12"
                 />
               </CardContent>
             </Card>
