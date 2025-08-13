@@ -1,78 +1,47 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Users } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-r from-secondary/30 to-primary/20">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-20 px-4 bg-background">
+      <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            Why $OWIF tho?
+          <span className="text-2xl font-bold text-primary mb-4 block">$WIF</span>
+          <h2 className="text-5xl md:text-6xl font-black mb-8">
+            WHERE IT ALL BEGAN
           </h2>
-          <p className="text-xl text-muted-foreground">
-            Because this aint just a coin its a whole LIFESTYLE bestie 💯
-          </p>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-xl text-foreground mb-6">
+              The Dogwifhat memecoin was born with one single mission: to
+              conquer social media, one hat at a time. Getting involved is easy - secure a
+              bag of $WIF then update your PFP to the iconic Dogwifhat image or your own
+              unique hat creation. That's it - you're officially on the team and ready for
+              battle. Welcome to the cult young soldier.
+            </p>
+            <p className="text-xl text-primary font-bold">
+              **Your mission = hat up more recruits like your life depends on it**
+            </p>
+          </div>
         </div>
-        
-        <div className="grid md:grid-cols-3 gap-8">
-          <Card className="bg-card/80 backdrop-blur hover:scale-105 transition-transform duration-300 border-primary/20">
-            <CardContent className="p-8 text-center">
-              <img 
-                src="https://picsum.photos/200/200?random=2" 
-                alt="Wise Old Dog" 
-                className="w-24 h-24 mx-auto mb-4 rounded-full object-cover wiggle glow-cyan"
-              />
-              <h3 className="text-2xl font-bold mb-4">OLF = PURE SIGMA</h3>
-              <p className="text-muted-foreground">
-                While yall chasing new hats we out here with that VINTAGE RIZZ. 
-                Olf energy different fr - this that generational wealth mindset.
-              </p>
-            </CardContent>
-          </Card>
-          
-          <Card className="bg-card/80 backdrop-blur hover:scale-105 transition-transform duration-300 border-primary/20">
-            <CardContent className="p-8 text-center">
-              <img 
-                src="https://picsum.photos/200/200?random=3" 
-                alt="The Real Hat" 
-                className="w-24 h-24 mx-auto mb-4 rounded-full object-cover bounce-slow glow"
-              />
-              <h3 className="text-2xl font-bold mb-4">THAT HAT HITS DIFFERENT</h3>
-              <p className="text-muted-foreground">
-                New trends are MID but this hat? This hat got that AURA. 
-                OG status unlocked - only real ones understand the assignment.
-              </p>
-            </CardContent>
-          </Card>
-          
-          <Card className="bg-card/80 backdrop-blur hover:scale-105 transition-transform duration-300 border-primary/20">
-            <CardContent className="p-8 text-center">
-              <img 
-                src="https://picsum.photos/200/200?random=4" 
-                alt="To The Moon" 
-                className="w-24 h-24 mx-auto mb-4 rounded-full object-cover animate-pulse glow-cyan"
-              />
-              <h3 className="text-2xl font-bold mb-4">MOONSHOT LOCKED IN</h3>
-              <p className="text-muted-foreground">
-                Powered by pure COPIUM and fueled by degeneracy. 
-                Olf energy so strong we skipping moon and going straight to PLUTO.
-              </p>
-            </CardContent>
-          </Card>
+
+        <div className="text-center mb-16">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full"
+          >
+            <Users className="mr-2 h-6 w-6" />
+            View Community Members
+          </Button>
         </div>
-        
-        <div className="mt-16 text-center">
-          <div className="bg-primary/10 rounded-2xl p-8 border-2 border-primary/20">
-            <h3 className="text-3xl font-bold mb-4">The $OWIF Brainrot Bible</h3>
-            <div className="text-lg space-y-4 max-w-3xl mx-auto">
-              <p>
-                "We hold these vibes to be absolutely BUSSIN: that all olf dogs got that RIZZ, 
-                that they were blessed by the universe with unmatched AURA, 
-                and the divine right to rock the most FIRE hat in existence no cap."
-              </p>
-              <p className="text-primary font-semibold">
-                - The OG Sigma Doggos, 2024 (real)
-              </p>
-            </div>
+
+        <div className="text-center">
+          <div className="max-w-md mx-auto">
+            <img 
+              src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=500&h=500&fit=crop" 
+              alt="Original Dogwifhat Meme" 
+              className="w-full rounded-2xl mb-4"
+            />
+            <p className="text-muted-foreground italic">Original Dogwifhat Meme</p>
           </div>
         </div>
       </div>

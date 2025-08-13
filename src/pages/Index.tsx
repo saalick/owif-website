@@ -1,18 +1,16 @@
+import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
-import TokenomicsSection from "@/components/TokenomicsSection";
-import CommunitySection from "@/components/CommunitySection";
-import MemeGallery from "@/components/MemeGallery";
+import PartnersSection from "@/components/PartnersSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Header />
       <HeroSection />
       <AboutSection />
-      <TokenomicsSection />
-      <MemeGallery />
-      <CommunitySection />
+      <PartnersSection />
       <Footer />
     </div>
   );
