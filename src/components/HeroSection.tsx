@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users } from "lucide-react";
+import dogWithHat from "@/assets/dog-with-hat.jpg";
 
 const HeroSection = () => {
   return (
@@ -56,14 +57,14 @@ const HeroSection = () => {
       {/* Dog Images on sides */}
       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-64 h-64 opacity-80">
         <img 
-          src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=400&fit=crop" 
+          src={dogWithHat} 
           alt="Dog with hat" 
           className="w-full h-full object-cover rounded-full"
         />
       </div>
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-64 h-64 opacity-80">
         <img 
-          src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=400&fit=crop" 
+          src={dogWithHat} 
           alt="Dog with hat" 
           className="w-full h-full object-cover rounded-full"
         />
