@@ -1,7 +1,27 @@
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { useRunware } from "@/hooks/useRunware";
 
 const CommunitySection = () => {
+  const { generateImage, isGenerating } = useRunware();
+  const [communityImage, setCommunityImage] = useState<string>("");
+
+  useEffect(() => {
+    const generateCommunityImage = async () => {
+      const imageUrl = await generateImage({
+        positivePrompt: "A pack of different dog breeds all wearing various vintage hats (fedoras, berets, top hats), sitting together in a circle, golden sunset background, friendship vibes, community spirit, meme coin aesthetic, cartoon style",
+        width: 600,
+        height: 400,
+      }, "community-pack");
+      
+      if (imageUrl) {
+        setCommunityImage(imageUrl);
+      }
+    };
+
+    generateCommunityImage();
+  }, [generateImage]);
   const socialLinks = [
     { name: "Twitter", icon: "🐦", followers: "10K", description: "Daily olf memes" },
     { name: "Telegram", icon: "✈️", members: "5K", description: "Olf discussions 24/7" },
@@ -66,16 +86,27 @@ const CommunitySection = () => {
           </div>
           
           <div className="space-y-8">
-            <div className="bg-gradient-to-r from-primary/20 to-accent/30 rounded-2xl p-8 text-center">
-              <div className="text-6xl mb-4 animate-pulse">🎩</div>
-              <h3 className="text-3xl font-bold mb-4">Be Part of History</h3>
-              <p className="text-lg mb-6">
-                Join thousands of olf believers who know that age brings wisdom, 
-                and wisdom brings gains. This isn't just a token, it's a movement.
-              </p>
-              <Button size="lg" className="glow">
-                🚀 Join the Revolution
-              </Button>
+            <div className="bg-gradient-to-r from-primary/20 to-accent/30 rounded-2xl p-8 text-center relative overflow-hidden">
+              {communityImage && (
+                <div className="absolute inset-0 opacity-20">
+                  <img 
+                    src={communityImage} 
+                    alt="Community Pack" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
+              <div className="relative z-10">
+                <div className="text-6xl mb-4 animate-pulse">🎩</div>
+                <h3 className="text-3xl font-bold mb-4">Be Part of History</h3>
+                <p className="text-lg mb-6">
+                  Join thousands of olf believers who know that age brings wisdom, 
+                  and wisdom brings gains. This isn't just a token, it's a movement.
+                </p>
+                <Button size="lg" className="glow">
+                  🚀 Join the Revolution
+                </Button>
+              </div>
             </div>
             
             <div className="grid grid-cols-2 gap-4 text-center">
