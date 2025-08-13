@@ -20,7 +20,7 @@ const Header = () => {
           href="#" 
           className="text-sm font-medium text-primary-foreground hover:opacity-80 transition-opacity"
         >
-          BASESCAN
+          SOLSCAN
         </a>
         <a 
           href="#" 
