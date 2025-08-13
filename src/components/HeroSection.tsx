@@ -3,22 +3,22 @@ import { ArrowRight, Users } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen background-animate flex items-center justify-center relative overflow-hidden pt-16">
+    <section className="min-h-screen bg-background flex items-center justify-center relative overflow-hidden pt-16">
       {/* Main Content */}
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Token Symbol */}
           <div className="mb-8">
-            <span className="text-3xl font-black text-rainbow tracking-wider neon-text">
+            <span className="text-3xl font-black text-primary tracking-wider">
               $WIF
             </span>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-7xl md:text-9xl font-black mb-6 wiggle glitch">
-            <span className="text-foreground neon-text">DOG</span>
-            <span className="text-rainbow pulse-glow">WIF</span>
-            <span className="text-foreground neon-text">HAT</span>
+          <h1 className="text-7xl md:text-9xl font-black mb-6">
+            <span className="text-foreground">DOG</span>
+            <span className="text-primary">WIF</span>
+            <span className="text-foreground">HAT</span>
           </h1>
 
           {/* Subtitle */}
@@ -30,14 +30,14 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full hover-lift glow-rainbow transition-all duration-300 rainbow-border"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full transition-all duration-300"
             >
               <ArrowRight className="mr-2 h-6 w-6" />
               VIEW UNISWAP
             </Button>
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-bold rounded-full hover-lift glow-rainbow transition-all duration-300 rainbow-border"
+              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-12 py-6 text-lg font-bold rounded-full transition-all duration-300"
             >
               <Users className="mr-2 h-6 w-6" />
               JOIN THE CHAOS
@@ -53,29 +53,27 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Dog Images on sides - animated */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 w-64 h-64 opacity-80 float">
+      {/* Dog Images on sides */}
+      <div className="absolute left-0 top-1/2 -translate-y-1/2 w-64 h-64 opacity-80">
         <img 
           src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=400&fit=crop" 
           alt="Dog with hat" 
-          className="w-full h-full object-cover rounded-full hover-lift transition-transform duration-500 hover:scale-110"
+          className="w-full h-full object-cover rounded-full"
         />
       </div>
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-64 h-64 opacity-80 float" style={{animationDelay: '3s'}}>
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-64 h-64 opacity-80">
         <img 
           src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=400&fit=crop" 
           alt="Dog with hat" 
-          className="w-full h-full object-cover rounded-full hover-lift transition-transform duration-500 hover:scale-110"
+          className="w-full h-full object-cover rounded-full"
         />
       </div>
       
-      {/* Enhanced floating geometric shapes */}
-      <div className="absolute top-20 left-20 w-12 h-12 bg-primary/40 rounded-full float pulse-glow"></div>
-      <div className="absolute top-40 right-32 w-8 h-8 bg-accent/50 rotate-45 float glow-cyan" style={{animationDelay: '1s'}}></div>
-      <div className="absolute bottom-40 left-40 w-16 h-16 border-2 border-primary/50 rounded-full float pulse-glow" style={{animationDelay: '2s'}}></div>
-      <div className="absolute bottom-20 right-20 w-6 h-6 bg-muted/60 rotate-slow glow-rainbow"></div>
-      <div className="absolute top-1/3 left-1/4 w-4 h-4 bg-accent/60 rounded-full float" style={{animationDelay: '0.5s'}}></div>
-      <div className="absolute bottom-1/3 right-1/4 w-10 h-10 border border-accent/40 rotate-slow" style={{animationDelay: '3s'}}></div>
+      {/* Floating geometric shapes */}
+      <div className="absolute top-20 left-20 w-12 h-12 bg-primary/40 rounded-full"></div>
+      <div className="absolute top-40 right-32 w-8 h-8 bg-accent/50 rotate-45"></div>
+      <div className="absolute bottom-40 left-40 w-16 h-16 border-2 border-primary/50 rounded-full"></div>
+      <div className="absolute bottom-20 right-20 w-6 h-6 bg-muted/60"></div>
     </section>
   );
 };
