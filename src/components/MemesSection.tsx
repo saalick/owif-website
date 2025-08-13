@@ -2,46 +2,48 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, Share2, Zap, TrendingUp } from "lucide-react";
 
-import dogImage1 from "@/assets/dog-image-1.jpg";
-import dogImage2 from "@/assets/dog-image-2.jpg";
-import dogImage3 from "@/assets/dog-image-3.jpg";
-import dogImage4 from "@/assets/dog-image-4.jpg";
+import meme1 from "@/assets/meme-1.jpg";
+import meme2 from "@/assets/meme-2.jpg";
+import meme3 from "@/assets/meme-3.jpg";
+import meme4 from "@/assets/meme-4.jpg";
+import meme5 from "@/assets/meme-5.jpg";
+import meme6 from "@/assets/meme-6.jpg";
 
 const MemesSection = () => {
   const memes = [
     {
       id: 1,
-      url: dogImage1,
+      url: meme1,
       title: "OG Dogwifhat Vibes",
       likes: 420
     },
     {
       id: 2, 
-      url: dogImage2,
+      url: meme2,
       title: "Based Dog Energy",
       likes: 690
     },
     {
       id: 3,
-      url: dogImage3, 
+      url: meme3, 
       title: "Moon Mission Ready",
       likes: 1337
     },
     {
       id: 4,
-      url: dogImage4,
+      url: meme4,
       title: "Diamond Paws",
       likes: 2100
     },
     {
       id: 5,
-      url: dogImage1,
+      url: meme5,
       title: "Wen Lambo?",
       likes: 888
     },
     {
       id: 6,
-      url: dogImage2,
+      url: meme6,
       title: "HODL Mode Activated",
       likes: 1234
     }
