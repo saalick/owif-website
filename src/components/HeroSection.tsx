@@ -18,25 +18,28 @@ const HeroSection = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-black mb-6 slide-in-up stagger-1">
-            <span className="text-foreground hover-glow inline-block">ONLY</span>{" "}
-            <span className="text-gradient inline-block wiggle">OLF</span>{" "}
+            <span className="text-foreground hover-glow inline-block">ORIGINAL</span>{" "}
+            <span className="text-gradient inline-block wiggle">WIF</span>{" "}
             <span className="text-foreground hover-glow inline-block">HAT</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto fade-in-up stagger-2 px-4">
-            Wif Dogs Only Olf Hat - When new hats get old, we keep the olf hat vibes alive! 🎩
+           This is "Achi" the WIF Dogs original and only hat. When the old WIF hat got sold, the Original became his one and only hat! We are here to keep the original WIF hat vibes alive! 🎩
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-16 scale-in stagger-3">
+            <a href='https://x.com/OriginalWifHat'>
             <Button 
               size="lg" 
               className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift glow"
             >
               <ArrowRight className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
-              DEXSCREENER
+              X Community
             </Button>
+              </a>
+            <a href="https://t.me/+SHuOuusWh1o3ZmM0">
             <Button 
               size="lg" 
               className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift"
@@ -44,6 +47,7 @@ const HeroSection = () => {
               <Users className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
               Join Telegram
             </Button>
+              </a>
             <PfpButton />
           </div>
 
