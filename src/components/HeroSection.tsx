@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users } from "lucide-react";
 import dogImage1 from "@/assets/dog-image-1.jpg";
+import PfpButton from "@/components/PfpButton";
 
 const HeroSection = () => {
   return (
@@ -43,6 +44,7 @@ const HeroSection = () => {
               <Users className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
               Join Telegram
             </Button>
+            <PfpButton />
           </div>
 
           {/* Contract Address */}

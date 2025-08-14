@@ -1,25 +1,21 @@
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { X } from "lucide-react";
-import dogWithHat from "@/assets/dog-with-hat.jpg";
+import { X, ImageIcon } from "lucide-react";
 
 const PfpButton = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      {/* PFP Button */}
-      <Button
+      {/* Generate PFP Button */}
+      <Button 
         onClick={() => setIsOpen(true)}
-        className="fixed top-4 right-4 z-50 w-14 h-14 rounded-full p-0 overflow-hidden hover-lift hover-glow border-2 border-primary/50 bg-transparent"
-        variant="ghost"
+        size="lg" 
+        className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift"
       >
-        <img 
-          src={dogWithHat}
-          alt="OWIF Profile"
-          className="w-full h-full object-cover rounded-full"
-        />
+        <ImageIcon className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
+        Generate PFP
       </Button>
 
       {/* Full Screen Modal with Iframe */}
