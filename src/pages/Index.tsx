@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import MemesSection from "@/components/MemesSection";
 import Footer from "@/components/Footer";
+import PfpButton from "@/components/PfpButton";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <AboutSection />
       <MemesSection />
       <Footer />
+      <PfpButton />
     </div>
   );
 };
