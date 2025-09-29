@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const CommunitySection = () => {
   const socialLinks = [
-    { name: "Twitter/X", followers: "10K", description: "Daily brainrot injection" },
-    { name: "Telegram", members: "5K", description: "War room for degens 24/7" },
-    { name: "Discord", members: "3K", description: "Pure chaos coordination HQ" },
-    { name: "Reddit", subscribers: "2K", description: "Olf DD and shitpost sanctuary" }
+    { name: "推特/X", followers: "1万", description: "日常脑残内容注射" },
+    { name: "电报群", members: "5千", description: "堕落者24/7作战室" },
+    { name: "Discord", members: "3千", description: "纯混乱协调总部" },
+    { name: "Reddit", subscribers: "2千", description: "老帽子深度分析和废话圣地" }
   ];
 
   return (
@@ -14,10 +14,10 @@ const CommunitySection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            Join The Chaos
+            加入混乱
           </h2>
           <p className="text-xl text-muted-foreground">
-            Link up with the most unhinged olf hat degens on the internet
+            与互联网上最疯狂的老帽子堕落者联手
           </p>
         </div>
         
@@ -30,7 +30,7 @@ const CommunitySection = () => {
                 <div className="text-2xl font-bold text-primary mb-2">{social.followers || social.members || social.subscribers}</div>
                 <p className="text-sm text-muted-foreground">{social.description}</p>
                 <Button variant="outline" size="sm" className="mt-4 w-full">
-                  Join Now
+                  立即加入
                 </Button>
               </CardContent>
             </Card>
@@ -41,25 +41,25 @@ const CommunitySection = () => {
           <div className="space-y-8">
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">Diamond Paws Club</h3>
+                <h3 className="text-2xl font-bold mb-4">钻石爪俱乐部</h3>
                 <p className="text-lg mb-4">
-                  The most unhinged olf holders get PREMIUM perks:
+                  最疯狂的老帽子持有者获得高级特权：
                 </p>
                 <ul className="space-y-2">
-                  <li>Alpha leaks before everyone else</li>
-                  <li>VIP degen den access</li>
-                  <li>FIRE meme contest rewards</li>
-                  <li>Exclusive chaos coordination events</li>
+                  <li>比其他人先获得内幕消息</li>
+                  <li>VIP堕落者窝点访问权</li>
+                  <li>火爆表情包竞赛奖励</li>
+                  <li>独家混乱协调活动</li>
                 </ul>
               </CardContent>
             </Card>
             
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">The Chaos Council</h3>
+                <h3 className="text-2xl font-bold mb-4">混乱议会</h3>
                 <p className="text-lg">
-                  Democracy but make it UNHINGED. Every olf voice gets heard. 
-                  Together we build the most FIRE hat empire in crypto history.
+                  民主但要疯狂化。每个老帽子的声音都被听到。
+                  我们一起建造加密货币历史上最火爆的帽子帝国。
                 </p>
               </CardContent>
             </Card>
@@ -76,33 +76,33 @@ const CommunitySection = () => {
               </div>
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-primary rounded-full mb-4 mx-auto animate-pulse glow"></div>
-                <h3 className="text-3xl font-bold mb-4">Witness The Chaos</h3>
+                <h3 className="text-3xl font-bold mb-4">见证混乱</h3>
                 <p className="text-lg mb-6">
-                  Join thousands of absolute UNITS who understand olf energy different. 
-                  This aint just a token bestie, this a whole LIFESTYLE revolution.
+                  加入成千上万理解老帽子能量的绝对单位。
+                  这不只是一个代币朋友，这是一场完整的生活方式革命。
                 </p>
                 <Button size="lg" className="glow">
-                  JOIN THE MADNESS
+                  加入疯狂
                 </Button>
               </div>
             </div>
             
             <div className="grid grid-cols-2 gap-4 text-center">
               <div className="bg-card p-4 rounded-lg border">
-                <div className="text-2xl font-bold text-primary">20K+</div>
-                <div className="text-sm text-muted-foreground">Certified Degens</div>
+                <div className="text-2xl font-bold text-primary">2万+</div>
+                <div className="text-sm text-muted-foreground">认证堕落者</div>
               </div>
               <div className="bg-card p-4 rounded-lg border">
-                <div className="text-2xl font-bold text-primary">500K+</div>
-                <div className="text-sm text-muted-foreground">Fire Memes</div>
+                <div className="text-2xl font-bold text-primary">50万+</div>
+                <div className="text-sm text-muted-foreground">火爆表情包</div>
               </div>
               <div className="bg-card p-4 rounded-lg border">
                 <div className="text-2xl font-bold text-primary">24/7</div>
-                <div className="text-sm text-muted-foreground">Chaos Mode</div>
+                <div className="text-sm text-muted-foreground">混乱模式</div>
               </div>
               <div className="bg-card p-4 rounded-lg border">
                 <div className="text-2xl font-bold text-primary">∞</div>
-                <div className="text-sm text-muted-foreground">Sigma Energy</div>
+                <div className="text-sm text-muted-foreground">西格玛能量</div>
               </div>
             </div>
           </div>

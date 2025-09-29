@@ -8,31 +8,31 @@ const Header = () => {
           href="#" 
           className="text-xs sm:text-sm font-medium text-primary-foreground hover-lift whitespace-nowrap px-2 py-1 rounded-lg hover:bg-primary-foreground/10 transition-all duration-300"
         >
-          TELEGRAM
+          电报群
         </a>
         <a 
           href="#" 
           className="text-xs sm:text-sm font-medium text-primary-foreground hover-lift whitespace-nowrap px-2 py-1 rounded-lg hover:bg-primary-foreground/10 transition-all duration-300"
         >
-          TWITTER
+          推特
         </a>
         <a 
           href="#" 
           className="text-xs sm:text-sm font-medium text-primary-foreground hover-lift whitespace-nowrap px-2 py-1 rounded-lg hover:bg-primary-foreground/10 transition-all duration-300"
         >
-          SOLSCAN
+          区块浏览器
         </a>
         <a 
           href="#" 
           className="text-xs sm:text-sm font-medium text-primary-foreground hover-lift whitespace-nowrap px-2 py-1 rounded-lg hover:bg-primary-foreground/10 transition-all duration-300"
         >
-          DEXSCREENER
+          价格图表
         </a>
         <a 
           href="#" 
           className="text-xs sm:text-sm font-medium text-primary-foreground hover-lift whitespace-nowrap px-2 py-1 rounded-lg hover:bg-primary-foreground/10 transition-all duration-300"
         >
-          DEXTOOLS
+          交易工具
         </a>
       </nav>
     </header>

@@ -7,7 +7,7 @@ const Footer = () => {
       
       <div className="container mx-auto text-center relative z-10">
         <p className="text-xs sm:text-sm text-muted-foreground hover-glow transition-all duration-300 fade-in-up">
-          © 2025 OWIF. All rights reserved.
+          © 2025 OWIF. 版权所有。
         </p>
         {/* Decorative dots */}
         <div className="flex justify-center space-x-3 mt-3 sm:mt-4">

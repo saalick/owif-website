@@ -3,10 +3,10 @@ import { Progress } from "@/components/ui/progress";
 
 const TokenomicsSection = () => {
   const tokenomics = [
-    { label: "For The Culture", percentage: 40, description: "Airdrops for the day ones, rewards for diamond hands" },
-    { label: "Keep It Liquid", percentage: 30, description: "Smooth trading only, no sketchy business" },
-    { label: "Building Different", percentage: 20, description: "Funding the most FIRE olf hat innovations" },
-    { label: "Viral Marketing", percentage: 10, description: "Spreading olf hat supremacy across ALL timelines" }
+    { label: "为了文化", percentage: 40, description: "给老玩家空投，钻石手奖励" },
+    { label: "保持流动性", percentage: 30, description: "只做顺畅交易，没有可疑业务" },
+    { label: "与众不同的建设", percentage: 20, description: "资助最火爆的老帽子创新" },
+    { label: "病毒式营销", percentage: 10, description: "在所有时间线传播老帽子至上" }
   ];
 
   return (
@@ -14,10 +14,10 @@ const TokenomicsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold text-gradient mb-6">
-            The Numbers Game
+            数字游戏
           </h2>
           <p className="text-xl text-muted-foreground">
-            Math that actually makes sense (shocking ik)
+            真正说得通的数学（令人震惊）
           </p>
         </div>
         
@@ -34,7 +34,7 @@ const TokenomicsSection = () => {
             <Card className="bg-card/80 backdrop-blur border-primary/20">
               <CardHeader>
                 <CardTitle className="text-3xl text-center">
-                  1 Billion $OWIF Tokens
+                  10亿 $OWIF 代币
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -56,9 +56,9 @@ const TokenomicsSection = () => {
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-destructive rounded-full mb-4 mx-auto animate-pulse"></div>
-                <h3 className="text-2xl font-bold mb-4">Zero Tax Energy</h3>
+                <h3 className="text-2xl font-bold mb-4">零手续费能量</h3>
                 <p className="text-lg">
-                  0% buy tax, 0% sell tax. We too olf for the IRS shenanigans fr.
+                  0% 买入税，0% 卖出税。我们太老了不玩税务局的把戏。
                 </p>
               </CardContent>
             </Card>
@@ -66,10 +66,10 @@ const TokenomicsSection = () => {
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-accent rounded-lg mb-4 mx-auto rotate-45"></div>
-                <h3 className="text-2xl font-bold mb-4">LP Locked Till Heat Death</h3>
+                <h3 className="text-2xl font-bold mb-4">流动性锁定至宇宙热寂</h3>
                 <p className="text-lg">
-                  Liquidity locked until the universe itself gets rekt. 
-                  We aint rugpulling nobody bestie.
+                  流动性锁定直到宇宙本身崩塌。
+                  我们不会割任何人韭菜，朋友。
                 </p>
               </CardContent>
             </Card>
@@ -77,10 +77,10 @@ const TokenomicsSection = () => {
             <Card className="bg-primary/10 border-primary/30">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-primary rounded-full mb-4 mx-auto glow wiggle"></div>
-                <h3 className="text-2xl font-bold mb-4">Ownership = YEETED</h3>
+                <h3 className="text-2xl font-bold mb-4">所有权 = 抛弃</h3>
                 <p className="text-lg">
-                  Contract ownership straight up DELETED. This the people's coin now. 
-                  Power to the olf degeneracy!
+                  合约所有权直接删除。这现在是人民的币。
+                  老堕落者的力量！
                 </p>
               </CardContent>
             </Card>

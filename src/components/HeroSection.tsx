@@ -18,14 +18,14 @@ const HeroSection = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-black mb-6 slide-in-up stagger-1">
-            <span className="text-foreground hover-glow inline-block">ORIGINAL</span>{" "}
+            <span className="text-foreground hover-glow inline-block">原创</span>{" "}
             <span className="text-gradient inline-block wiggle">WIF</span>{" "}
-            <span className="text-foreground hover-glow inline-block">HAT</span>
+            <span className="text-foreground hover-glow inline-block">帽子</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto fade-in-up stagger-2 px-4">
-           This is "Achi" the WIF Dogs original and only hat. When the old WIF hat got sold, the Original became his one and only hat! We are here to keep the original WIF hat vibes alive! 🎩
+           这是"阿奇"WIF狗的原创独有帽子。当旧的WIF帽子被卖掉后，原创帽子成为了他唯一的帽子！我们在这里保持原创WIF帽子的氛围！🎩
           </p>
 
           {/* CTA Buttons */}
@@ -36,7 +36,7 @@ const HeroSection = () => {
               className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift glow"
             >
               <ArrowRight className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
-              X Community
+              X 社区
             </Button>
               </a>
             <a href="https://t.me/+SHuOuusWh1o3ZmM0">
@@ -45,7 +45,7 @@ const HeroSection = () => {
               className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift"
             >
               <Users className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
-              Join Telegram
+              加入电报群
             </Button>
               </a>
             <PfpButton />
@@ -53,7 +53,7 @@ const HeroSection = () => {
 
           {/* Contract Address */}
           <div className="mt-16 fade-in-up stagger-4">
-            <div className="text-xs sm:text-sm text-muted-foreground mb-2">Solana Contract Address:</div>
+            <div className="text-xs sm:text-sm text-muted-foreground mb-2">Solana 合约地址:</div>
             <code className="text-foreground font-mono text-sm sm:text-lg break-all bg-secondary/20 px-3 sm:px-4 py-2 rounded-lg hover-glow block mx-auto max-w-full">
               2wnXhHCZ8Y1cRVVykgHJ2VU8oExJo3goRGPLEgfC3jEK
             </code>
