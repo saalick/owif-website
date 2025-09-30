@@ -7,7 +7,7 @@ import meme4 from "@/assets/meme-4.jpg";
 import meme5 from "@/assets/meme-5.jpg";
 import meme6 from "@/assets/meme-6.jpg";
 
-const MemesSection = () => {
+const MemesSectionChinese = () => {
   const memes = [
     { id: 1, url: meme1 },
     { id: 2, url: meme2 },
@@ -29,10 +29,10 @@ const MemesSection = () => {
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black mb-4 sm:mb-6 wiggle slide-in-up">
-            <span className="text-gradient neon-text">Epic Memes</span>
+            <span className="text-gradient neon-text">火爆表情包</span>
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-6 sm:mb-8 fade-in-up stagger-1 px-4">
-            The most legendary OWIF content taking over the internet
+            震撼网络的最传奇OWIF内容
           </p>
         </div>
 
@@ -59,4 +59,4 @@ const MemesSection = () => {
   );
 };
 
-export default MemesSection;
+export default MemesSectionChinese;

@@ -15,7 +15,7 @@ const PfpButton = () => {
         className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift"
       >
         <ImageIcon className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
-        生成头像
+        Generate PFP
       </Button>
 
       {/* Full Screen Modal with Iframe */}
