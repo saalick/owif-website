@@ -13,7 +13,7 @@ const AboutSectionChinese = () => {
         <div className="text-center mb-12 sm:mb-16">
           <span className="text-xl sm:text-2xl font-bold text-primary mb-4 block bounce-in neon-text">$OWIF</span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 slide-in-up stagger-1">
-            <span className="text-gradient">一切的起源</span>
+            <span className="text-gradient">起源故事</span>
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-base sm:text-lg md:text-xl text-foreground mb-4 sm:mb-6 fade-in-up stagger-2 px-4">
@@ -31,7 +31,7 @@ const AboutSectionChinese = () => {
             className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift glow"
           >
             <Users className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
-            查看社区成员
+            查看社区
           </Button>
         </div>
 
@@ -42,7 +42,7 @@ const AboutSectionChinese = () => {
               alt="OWIF Dog with Hat" 
               className="w-full rounded-2xl mb-4 hover-lift hover-glow"
             />
-            <p className="text-sm sm:text-base text-muted-foreground italic fade-in-up stagger-6">OWIF - 只有老帽子</p>
+            <p className="text-sm sm:text-base text-muted-foreground italic fade-in-up stagger-6">OWIF - 只有老帽子的狗</p>
           </div>
         </div>
       </div>
