@@ -39,7 +39,7 @@ const HeroSectionChinese = () => {
               X 社区
             </Button>
               </a>
-            <a href="https://t.me/+SHuOuusWh1o3ZmM0">
+            <a href="https://t.me/+Nd7jfRCmo20zN2I0">
             <Button 
               size="lg" 
               className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg font-bold rounded-full hover-lift"
